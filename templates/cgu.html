@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0E0B14"><link rel="manifest" href="/manifest.json">
+<title>JUPITE – Conditions d'utilisation</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--r:#E8364A;--rose:#FF6B8A;--or:#F5C842;--noir:#0E0B14;--d1:#1A1525;--d2:#231D32;--t:#F0EBF8;--g:#9B8FB0;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--noir);color:var(--t);min-height:100svh;}
+.o{position:fixed;border-radius:50%;filter:blur(90px);pointer-events:none;z-index:0;}
+.o1{width:400px;height:400px;background:var(--r);opacity:.15;top:-100px;left:-100px;}
+.o2{width:300px;height:300px;background:#7B3FF5;opacity:.12;bottom:-80px;right:-80px;}
+.page{max-width:480px;margin:0 auto;padding:32px 22px 80px;position:relative;z-index:1;}
+/* Logo */
+.logo{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:700;
+  background:linear-gradient(135deg,var(--r),var(--rose),var(--or));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
+  text-align:center;margin-bottom:8px;background-clip: text;}
+/* Badge avertissement */
+.warn-badge{background:linear-gradient(135deg,rgba(232,54,74,.2),rgba(245,200,66,.1));
+  border:2px solid rgba(232,54,74,.4);border-radius:20px;
+  padding:20px;text-align:center;margin-bottom:28px;}
+.warn-ico{font-size:3rem;margin-bottom:10px;}
+.warn-title{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:700;
+  color:var(--or);margin-bottom:6px;}
+.warn-sub{font-size:.88rem;color:rgba(240,235,248,.7);line-height:1.5;}
+/* Sections CGU */
+.cgu-card{background:var(--d2);border-radius:18px;padding:20px;margin-bottom:16px;
+  border:1px solid rgba(255,255,255,.07);}
+.cgu-icon{font-size:1.6rem;margin-bottom:10px;}
+.cgu-title{font-weight:700;font-size:1rem;margin-bottom:8px;color:var(--t);}
+.cgu-text{font-size:.84rem;color:var(--g);line-height:1.65;}
+.cgu-text strong{color:var(--t);}
+.cgu-text ul{margin:8px 0 0 16px;}
+.cgu-text ul li{margin-bottom:5px;}
+/* Règle importante */
+.regle{background:rgba(232,54,74,.08);border-left:3px solid var(--r);
+  border-radius:0 12px 12px 0;padding:12px 14px;margin:8px 0;
+  font-size:.83rem;color:var(--t);line-height:1.5;}
+.regle strong{color:var(--rose);}
+/* Checkbox */
+.check-zone{background:var(--d1);border:2px solid rgba(255,255,255,.1);
+  border-radius:16px;padding:18px;margin-bottom:20px;}
+.check-row{display:flex;align-items:flex-start;gap:14px;margin-bottom:14px;cursor:pointer;}
+.check-row:last-child{margin-bottom:0;}
+.check-box{width:24px;height:24px;border-radius:6px;border:2px solid rgba(255,255,255,.2);
+  flex-shrink:0;display:flex;align-items:center;justify-content:center;
+  transition:.2s;margin-top:2px;}
+.check-row.checked .check-box{background:linear-gradient(135deg,var(--r),var(--rose));border-color:transparent;}
+.check-label{font-size:.86rem;line-height:1.5;color:var(--g);}
+.check-label strong{color:var(--t);}
+/* Boutons */
+.btn-accept{width:100%;background:linear-gradient(135deg,var(--r),var(--rose));
+  color:#fff;border:none;border-radius:50px;padding:17px;
+  font-size:1rem;font-weight:700;cursor:pointer;transition:.25s;
+  font-family:'Plus Jakarta Sans',sans-serif;opacity:.4;pointer-events:none;}
+.btn-accept.active{opacity:1;pointer-events:all;}
+.btn-accept.active:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(232,54,74,.45);}
+.btn-retour{width:100%;background:transparent;color:var(--g);
+  border:1.5px solid rgba(255,255,255,.1);border-radius:50px;padding:14px;
+  font-size:.9rem;cursor:pointer;margin-top:12px;font-family:'Plus Jakarta Sans',sans-serif;}
+/* Age badge */
+.age-badge{background:linear-gradient(135deg,var(--or),#F06A22);
+  border-radius:50px;padding:8px 20px;display:inline-flex;
+  align-items:center;gap:8px;font-weight:700;font-size:1rem;
+  margin:0 auto 20px;display:flex;justify-content:center;}
+</style>
+</head>
+<body>
+<div class="o o1"></div><div class="o o2"></div>
+<div class="page">
+  <div class="logo">JUPITE</div>
+
+  <!-- Avertissement principal -->
+  <div class="warn-badge">
+    <div class="warn-ico">⚠️</div>
+    <div class="warn-title">Avant de continuer</div>
+    <div class="warn-sub">Veuillez lire attentivement ces conditions.<br>Votre inscription implique leur acceptation totale.</div>
+  </div>
+
+  <!-- Badge 18+ -->
+  <div class="age-badge">
+    🔞 Réservé aux personnes majeures — 18 ans minimum
+  </div>
+
+  <!-- Section 1 : Qui peut s'inscrire -->
+  <div class="cgu-card">
+    <div class="cgu-icon">👤</div>
+    <div class="cgu-title">Qui peut utiliser JUPITE ?</div>
+    <div class="cgu-text">
+      JUPITE est une application de rencontres réservée aux <strong>hommes et femmes âgés de 18 ans et plus</strong>.
+      <div class="regle">
+        ❌ <strong>Strictement interdit aux mineurs de moins de 18 ans.</strong><br>
+        Toute inscription frauduleuse sera immédiatement supprimée.
+      </div>
+      En vous inscrivant, vous certifiez avoir au moins <strong>18 ans</strong> et fournir des informations <strong>exactes et sincères</strong>.
+    </div>
+  </div>
+
+  <!-- Section 2 : Confidentialité -->
+  <div class="cgu-card">
+    <div class="cgu-icon">🔒</div>
+    <div class="cgu-title">Confidentialité & Respect de la vie privée</div>
+    <div class="cgu-text">
+      Vos données personnelles sont <strong>strictement confidentielles</strong> et ne seront jamais vendues à des tiers.
+      <ul>
+        <li>Votre localisation sert uniquement à trouver des profils proches</li>
+        <li>Vos messages sont <strong>privés</strong> et chiffrés</li>
+        <li>Vous pouvez supprimer votre compte à tout moment</li>
+        <li>Vos photos ne sont visibles que par les membres inscrits</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Section 3 : Règles des messages -->
+  <div class="cgu-card">
+    <div class="cgu-icon">💬</div>
+    <div class="cgu-title">Règles des messages — Modération automatique</div>
+    <div class="cgu-text">
+      JUPITE protège ses membres grâce à un système de modération automatique.
+      <div class="regle">
+        🚫 <strong>Les messages suivants sont automatiquement bloqués :</strong><br>
+        • Numéros de téléphone<br>
+        • Liens vers WhatsApp, Telegram, Instagram, Snapchat...<br>
+        • URLs et liens externes<br>
+        • Demandes de contact hors application<br>
+        • Contenu inapproprié ou offensant
+      </div>
+      <strong>Pourquoi ?</strong> Pour votre sécurité et éviter les arnaques, harcèlements et redirections dangereuses.
+    </div>
+  </div>
+
+  <!-- Section 4 : Système de pièces -->
+  <div class="cgu-card">
+    <div class="cgu-icon">🪙</div>
+    <div class="cgu-title">Système de pièces</div>
+    <div class="cgu-text">
+      <ul>
+        <li>À l'inscription : <strong>200 pièces offertes gratuitement</strong></li>
+        <li>Chaque message envoyé coûte <strong>40 pièces</strong></li>
+        <li>Quand vos pièces sont épuisées, rechargez via carte bancaire, Orange Money ou TMoney</li>
+        <li>Les utilisateurs en zone <strong>Franc CFA</strong> bénéficient de <strong>50% de réduction</strong></li>
+      </ul>
+      <div class="regle">
+        ℹ️ Les achats de pièces sont <strong>définitifs et non remboursables</strong> sauf défaut technique avéré.
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 5 : Comportement -->
+  <div class="cgu-card">
+    <div class="cgu-icon">🤝</div>
+    <div class="cgu-title">Comportement attendu</div>
+    <div class="cgu-text">
+      En utilisant JUPITE, vous vous engagez à :
+      <ul>
+        <li>Respecter tous les membres sans discrimination</li>
+        <li>Ne pas usurper l'identité d'une autre personne</li>
+        <li>Ne pas harceler, menacer ou intimider</li>
+        <li>Ne pas partager de contenus à caractère pornographique</li>
+        <li>Ne pas utiliser l'app à des fins commerciales ou d'arnaque</li>
+      </ul>
+      <div class="regle">
+        ⚠️ Tout manquement entraîne la <strong>suspension immédiate du compte</strong> sans remboursement.
+      </div>
+    </div>
+  </div>
+
+  <!-- Checkboxes -->
+  <div class="check-zone">
+    <div class="check-row" id="c1" onclick="toggle('c1')">
+      <div class="check-box" id="cb1"></div>
+      <div class="check-label">Je certifie avoir <strong>18 ans ou plus</strong> et accepte les conditions d'utilisation de JUPITE.</div>
+    </div>
+    <div class="check-row" id="c2" onclick="toggle('c2')">
+      <div class="check-box" id="cb2"></div>
+      <div class="check-label">Je comprends que les messages contenant des <strong>numéros de téléphone ou liens externes</strong> seront bloqués.</div>
+    </div>
+    <div class="check-row" id="c3" onclick="toggle('c3')">
+      <div class="check-box" id="cb3"></div>
+      <div class="check-label">J'accepte la <strong>politique de confidentialité</strong> et le traitement de mes données personnelles.</div>
+    </div>
+  </div>
+
+  <button class="btn-accept" id="btnAccept" onclick="accepter()">
+    ✅ J'accepte et je m'inscris
+  </button>
+  <button class="btn-retour" onclick="location.href='/'">← Retour à l'accueil</button>
+</div>
+
+<script>
+const checks = {c1:false, c2:false, c3:false};
+
+function toggle(id){
+  checks[id] = !checks[id];
+  const row = document.getElementById(id);
+  const box = document.getElementById('cb'+id.slice(1));
+  row.classList.toggle('checked', checks[id]);
+  box.textContent = checks[id] ? '✓' : '';
+  // Activer bouton si tout coché
+  const allChecked = Object.values(checks).every(v=>v);
+  const btn = document.getElementById('btnAccept');
+  btn.classList.toggle('active', allChecked);
+}
+
+function accepter(){
+  // Stocker l'acceptation en session storage
+  sessionStorage.setItem('cgu_accepte', '1');
+  window.location.href = '/inscription';
+}
+
+// Service Worker
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js').catch(()=>{});
+</script>
+</body>
+</html>
